@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4927d621af742644f89062dbe881138f, type: 3}
+  m_Name: Rest
+  m_EditorClassIdentifier: 
+  interactionObjectType: 0
+  interactionObjectNullSprt: {fileID: 21300000, guid: e4cf9bb468168a9429049eea97d3ec10, type: 3}
+  maxNeedRange: 100
+  minNeedRange: 0
+  needPriority: 5
+  _needModifier: 0.001
+  alarmOnHighLevel: 0
+  percentageOnHighNeedLevel: 100
+  alarmOnMediumLevel: 0
+  percentageOnMediumNeedLevel: 70
+  alarmOnLowLevel: 1
+  percentageOnLowNeedLevel: 20
+  isNeedAlarm: 0
